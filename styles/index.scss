@@ -1,0 +1,29 @@
+$felt-green: #247345;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    padding: 12px;
+    background-color: $felt-green;
+
+    a {
+        border: 1px solid #fff;
+        border-radius: 18px;
+        outline: 0;
+        text-decoration: none;
+        padding: 8px 12px;
+        text-align: center;
+        margin-right: 15px;
+        color: #fff;
+        background-color:$felt-green;
+        transition-property: color, background-color;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+
+        &:hover,:focus{
+            color: $felt-green;
+            background-color: #fff;
+        }
+    }
+}
